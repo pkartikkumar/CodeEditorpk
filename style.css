@@ -1,0 +1,128 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.main-header{
+  background-color: #000000;
+  height: 50px;
+}
+.main-header #run-button  {
+ float: right;
+ margin-right: 10px;
+}
+.main-header .fullScreen{
+  float: right;
+}
+.main-header .res-btn{
+  float: right;
+}
+
+
+#run-button, button{
+  height: 30px;
+  width: 120px;
+  border: none;
+  background-color: #323232;
+  color: #fff;
+  margin: 10px 0px 10px 10px;
+  cursor: pointer;
+}
+#run-button:hover{
+background-color: #a3fd3b;
+color: #000000;
+}
+
+
+.run{
+  padding-right: 4px;
+}
+
+
+.columns{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+.column:first-child{
+  flex: 3;
+  
+}
+
+.column:last-child{
+  flex: 5;
+}
+
+.code p{
+  background-color: #323232;
+  color: rgb(189, 189, 189);
+  width: fit-content;
+  padding: 5px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  
+}
+.code p i{
+  color: #e34c26;
+  padding-right: 5px;
+}
+.code button{
+  
+  width: 60px;
+  border: none;
+  background-color: #323232;
+  color: #fff;
+  margin: 5px 0px 5px 10px;
+  cursor: pointer;
+}
+
+
+
+#show-code{
+  height: 100%;
+  width: 100%;
+  border: none;
+
+  border-left: 10px solid black;
+  
+}
+
+
+
+.CodeMirror{
+  background-color:#323232 !important;
+}
+
+
+
+button{
+  border: 0.5px solid black;
+}
+button:hover{
+  background-color: #757474;
+}
+
+
+/* preview */
+
+
+
+
+.error-highlight {
+  background-color: #fdd;
+}
+
+hr{
+  border: 1px solid black;
+}
+
+
+
+
+
+
+/* black and white */
+
